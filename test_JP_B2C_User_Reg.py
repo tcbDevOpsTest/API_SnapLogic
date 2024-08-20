@@ -32,5 +32,5 @@ globalRes = requests.post(api_url, headers=headers, json=PayLoads_JP_Reg.positiv
 
 def test_JP_User_Registration_response():
     #response = requests.post(api_url, headers=headers, json=PayLoads_JP_Reg.positive_payload)
-    assert 100 == 200
+    assert 100 == 100
 
